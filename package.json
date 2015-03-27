@@ -1,0 +1,29 @@
+{
+  "name": "sprintf-mock",
+  "description": "sprintf-js plugin allowing to mock sprintf behaviour returning data fixtures based on the resolved pattern and parameters.",
+  "version": "1.0.0",
+  "keywords": [
+    "sprintf",
+    "mock",
+    "isomorphic"
+  ],
+  "bugs": "https://github.com/M6Web/sprintf-mock/issues",
+  "license": "MIT",
+  "main": "./lib/sprintf-mock.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M6Web/sprintf-mock"
+  },
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "sprintf-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^0.17.0",
+    "nodeunit": "^0.9.0"
+  },
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit ./tests",
+    "lint": "./node_modules/eslint/bin/eslint.js ./lib"
+  }
+}
