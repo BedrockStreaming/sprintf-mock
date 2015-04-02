@@ -3,6 +3,8 @@
 
 [sprintf-js](https://github.com/alexei/sprintf.js) plugin allowing to mock sprintf behaviour by returning data fixtures based on the resolved pattern and parameters. For example, it's useful if you build some external resources URLs in your app with sprintf and you rather want to request local resources in your functional tests.
 
+See [this post](http://tech.m6web.fr/how-did-we-mock-the-backend-developers.html) to know why we use sprintf-mock at M6Web.
+
 ## Installation
 
 Install with [npm](http://npmjs.org/):
