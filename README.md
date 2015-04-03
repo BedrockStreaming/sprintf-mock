@@ -42,10 +42,10 @@ Then use the plugin:
 
 ```js
 // ./server.js file
-var sprintfLib = require(sprintf-js);
-var config = require(‘./sprintf-mock-config);
+var sprintfLib = require('sprintf-js');
+var config = require('./sprintf-mock-config');
 
-require(sprintf-mock’)(sprintfLib, config);
+require('sprintf-mock')(sprintfLib, config);
 ```
 
 ## Tests
