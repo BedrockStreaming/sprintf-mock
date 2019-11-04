@@ -1,7 +1,7 @@
 {
   "name": "sprintf-mock",
   "description": "sprintf-js plugin allowing to mock sprintf behaviour returning data fixtures based on the resolved pattern and parameters.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "sprintf",
     "mock",
