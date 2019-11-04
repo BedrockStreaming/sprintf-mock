@@ -19,7 +19,7 @@
     "sprintf-js": "^1.0.2"
   },
   "devDependencies": {
-    "eslint": "^0.17.0",
+    "eslint": "^4.18.2",
     "nodeunit": "^0.9.0"
   },
   "publishConfig": {
@@ -27,6 +27,6 @@
   },
   "scripts": {
     "test": "./node_modules/nodeunit/bin/nodeunit ./tests",
-    "lint": "./node_modules/eslint/bin/eslint.js ./lib"
+    "lint": "yarn eslint ./**/*.js"
   }
 }
