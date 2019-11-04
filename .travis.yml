@@ -1,4 +1,8 @@
 language: node_js
 node_js:
-  - '0.10'
-script: npm run lint && npm test
+  - "10"
+cache:
+  yarn: true
+script:
+  - yarn lint
+  - yarn test
