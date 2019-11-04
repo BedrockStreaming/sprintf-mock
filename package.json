@@ -27,6 +27,6 @@
   },
   "scripts": {
     "test": "./node_modules/nodeunit/bin/nodeunit ./tests",
-    "lint": "./node_modules/eslint/bin/eslint.js ./lib"
+    "lint": "yarn eslint ./**/*.js"
   }
 }
