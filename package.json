@@ -15,18 +15,18 @@
     "url": "https://github.com/M6Web/sprintf-mock"
   },
   "dependencies": {
-    "lodash": "^4.17.14",
-    "sprintf-js": "^1.0.2"
+    "lodash.tail": "^4.1.1",
+    "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
-    "nodeunit": "^0.9.0"
+    "eslint": "^6.7.2",
+    "nodeunit": "^0.11.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
-    "test": "./node_modules/nodeunit/bin/nodeunit ./tests",
+    "test": "nodeunit ./tests",
     "lint": "yarn eslint ./**/*.js"
   }
 }
