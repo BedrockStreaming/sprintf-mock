@@ -1,5 +1,5 @@
 
-# sprintf-mock [![Build Status](https://api.travis-ci.org/M6Web/sprintf-mock.png?branch=master)](https://travis-ci.org/M6Web/sprintf-mock)
+# sprintf-mock
 
 [sprintf-js](https://github.com/alexei/sprintf.js) plugin allowing to mock sprintf behaviour by returning data fixtures based on the resolved pattern and parameters. For example, it's useful if you build some external resources URLs in your app with sprintf and you rather want to request local resources in your functional tests.
 
