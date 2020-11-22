@@ -19,14 +19,14 @@
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "nodeunit": "^0.11.3"
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
-    "test": "nodeunit ./tests",
-    "lint": "yarn eslint ./**/*.js"
+    "test": "jest",
+    "lint": "yarn eslint ./lib/*.js"
   }
 }

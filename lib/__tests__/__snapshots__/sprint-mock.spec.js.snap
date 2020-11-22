@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sprinfMock should do noting on sprintf mock because pattern does not match config 1`] = `
+Array [
+  "https://otherdomain.example/%d/%s",
+  666,
+  "links",
+]
+`;
+
+exports[`sprinfMock should match config pattern and use mock 1`] = `
+Array [
+  Object {
+    "params": Array [
+      666,
+      "links",
+    ],
+    "pattern": "https://domain.example/%d/%s",
+  },
+  666,
+  "links",
+]
+`;
