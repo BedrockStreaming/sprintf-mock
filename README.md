@@ -10,7 +10,7 @@ See [this post](http://tech.m6web.fr/how-did-we-mock-the-backend-developers.html
 Install with [npm](http://npmjs.org/):
 
 ```sh
-$ npm install sprintf-mock
+$ yarn add sprintf-mock
 ```
 
 ## Usage
@@ -50,9 +50,9 @@ require('sprintf-mock')(sprintfLib, config);
 
 ## Tests
 
-To run units tests: `npm test`.
+To run units tests: `yarn test`.
 
-To check code style: `npm run lint`.
+To check code style: `yarn lint`.
 
 ## Credits
 
