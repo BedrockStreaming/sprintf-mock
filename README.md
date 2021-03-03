@@ -3,11 +3,11 @@
 
 [sprintf-js](https://github.com/alexei/sprintf.js) plugin allowing to mock sprintf behaviour by returning data fixtures based on the resolved pattern and parameters. For example, it's useful if you build some external resources URLs in your app with sprintf and you rather want to request local resources in your functional tests.
 
-See [this post](http://tech.m6web.fr/how-did-we-mock-the-backend-developers.html) to know why we use sprintf-mock at M6Web.
+See [this post](https://tech.bedrockstreaming.com//how-did-we-mock-the-backend-developers.html) to know why we use sprintf-mock at M6Web.
 
 ## Installation
 
-Install with [npm](http://npmjs.org/):
+Install with [yarn](https://yarnpkg.com/):
 
 ```sh
 $ yarn add sprintf-mock
@@ -56,8 +56,8 @@ To check code style: `yarn lint`.
 
 ## Credits
 
-Developped by the [Cytron Team](http://cytron.fr/) of [M6 Web](http://tech.m6web.fr/).   
-Tested with [nodeunit](https://github.com/caolan/nodeunit).
+Developped by the Cytron Team of [Bedrock Streaming](https://tech.bedrockstreaming.com/).   
+Tested with [Jest](https://jestjs.io/).
 
 ## License
 
