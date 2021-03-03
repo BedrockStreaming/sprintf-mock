@@ -1,6 +1,13 @@
 
 # sprintf-mock
 
+[![Continous Integration](https://github.com/M6Web/sprintf-mock/actions/workflows/node.js.yml/badge.svg)](https://github.com/M6Web/sprintf-mock/actions/workflows/node.js.yml)
+![npm](https://img.shields.io/npm/v/sprintf-mock)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/sprintf-mock)
+![npm](https://img.shields.io/npm/dy/sprintf-mock)
+![GitHub last commit](https://img.shields.io/github/last-commit/M6web/sprintf-mock)
+![NPM](https://img.shields.io/npm/l/sprintf-mock)
+
 [sprintf-js](https://github.com/alexei/sprintf.js) plugin allowing to mock sprintf behaviour by returning data fixtures based on the resolved pattern and parameters. For example, it's useful if you build some external resources URLs in your app with sprintf and you rather want to request local resources in your functional tests.
 
 See [this post](http://tech.m6web.fr/how-did-we-mock-the-backend-developers.html) to know why we use sprintf-mock at M6Web.
