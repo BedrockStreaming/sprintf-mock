@@ -9,7 +9,8 @@
   ],
   "bugs": "https://github.com/M6Web/sprintf-mock/issues",
   "license": "MIT",
-  "main": "./lib/sprintf-mock.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/M6Web/sprintf-mock"
@@ -19,7 +20,15 @@
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-typescript": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.0",
+    "@typescript-eslint/parser": "^4.16.0",
+    "babel-jest": "^26.6.3",
+    "chalk": "^2.3.1",
+    "eslint": "^7.21.0",
+    "typescript": "^4.2.2",
     "jest": "^26.6.3"
   },
   "publishConfig": {
@@ -27,6 +36,8 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "yarn eslint ./lib/*.js"
+    "build": "tsc --listEmittedFiles",
+    "version": "yarn build",
+    "lint": "yarn eslint ./lib/**/*.ts"
   }
 }

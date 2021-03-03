@@ -51,8 +51,9 @@ Then use the plugin:
 // ./server.js file
 var sprintfLib = require('sprintf-js');
 var config = require('./sprintf-mock-config');
+var { sprintfMock } = require('sprintf-mock');
 
-require('sprintf-mock')(sprintfLib, config);
+sprintfMock(sprintfLib, config);
 ```
 
 ## Tests
